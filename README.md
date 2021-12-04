@@ -54,7 +54,7 @@ Clique - proof-of-authority
 ####  ENTER 5 
 use any number, default is 15
 
-## 7. Which accounts are allowed to seal?
+## 8. Which accounts are allowed to seal?
 #### 0X-----------------
 We need to fetch "Public address of the key" (minus "OX"), which we saved in step 1 above for node1. Hit Enter
 #### 0X-----------------
@@ -62,30 +62,30 @@ Fetch "Public address of the key" (minus "OX"), which we saved in step 1 above f
 #### 0X-----------------
 This time just Hit Enter
 
-## 7. Which accounts should be pre-funded?
+## 9. Which accounts should be pre-funded?
 #### 0X-----------------
 Enter "Public address of the key" (minus "OX"), which we saved in step 1 for node1. Hit Enter
 #### 0X-----------------
 Hit Enter (we don't need to fund the second node)
 
-## 8. Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? (advisable yes)
+## 10. Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? (advisable yes)
 Hit Enter
 
 ![fig-2](images/pic8.png)
 
-## 9. Specify your chain/network ID if you want an explicit one
+## 11. Specify your chain/network ID if you want an explicit one
 #### Enter 333     
 you could enter any network Id of your liking, but make sure to save it for later usage.
 you should get this message (INFO [12-03|15:56:20.603] Configured new genesis block)
 
-## 10. What would you like to do?
+## 12. What would you like to do?
 #### Enter 2
 "Manage existing genesis"
 
 #### Enter 2 
 Export genesis configurations
 
-## 11. Which folder to save the genesis specs into?
+## 13. Which folder to save the genesis specs into?
 #### Hit Enter
 Export genesis configurations. 
 This will fail to create two of the files, but you only need `networkname.json`.
@@ -101,7 +101,7 @@ Please open your "Blockchain-Tools" folder. You should have node1 and node2 fold
 -----------------------------------------------------------------------------------------------------------------
 
 
-## 12. Initialize the nodes with the genesis' json file
+## 14. Initialize the nodes with the genesis' json file
 open a new terminal window. cd into the Blockchain-Tools folder and run the following commands (one by one)
 
 #### ./geth --datadir node1 init networkname.json
@@ -115,7 +115,7 @@ Close the terminal window.
 
 -----------------------------------------------------------------------------------------------------------------
 
-## 13. Start mining blocks nodes
+## 15. Start mining blocks nodes
 open a new terminal window. cd into the Blockchain-Tools folder and run the following command
 
 #### ./geth --datadir node1 --mine -minerthreads 1
