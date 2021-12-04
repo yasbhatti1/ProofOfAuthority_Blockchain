@@ -194,7 +194,7 @@ You should see the transaction go from "Pending" to "Successful" in around the s
 -----------------------------------------------------------------------------------------------------------------
 #### Note: 
 If you have already set up your network, you might encounter some issues with your balance. 
-you should then restart the process of creating nodes (first delete node1 and node2 folder and the two ".json" files in "BlockChain-Tools" folder, and then follow above steps starting with step 1). For step 2, use the following changes:
+you should then restart the process of creating nodes (first delete node1 & node2 folders, and the two ".json" files in "BlockChain-Tools" folder, and then follow above steps starting with step 1). For step 2, use the following changes:
 ##### Use the previously created network name (which is showing up in MyCrypto app)
 ##### Use first six letters of "Public address of the key" from step1 (node1), and convert them to decimal. Use this decimal value as your network chain ID. You are going to use existing network, so make the appropriate changes in subsequent steps. In Mycrupto app: while configuring "Set Up your Custom Network", use previously created network. Add "Network Node", but here chain ID should be the one you added while setting up step 2. 
 * You could also transfer funds from old wallet to new wallet here as well. (Key is to be in the same network)
