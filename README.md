@@ -147,7 +147,7 @@ please make sure to enter same network name that you saved in step 3
 
 #### For "Currency", type "ETH"
 
-#### For "Chain ID", type "333" (as you typed in step 
+#### For "Chain ID", type "333" (as you typed in step 9) 
 
 #### For "URL", Type "type "http://127.0.0.1:8545"
 
