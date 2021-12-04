@@ -154,7 +154,7 @@ please make sure to enter same network name that you saved in step 3
 #### Finally, click "Save & Use Custom Node"
 Make sure your new custom node is selected at the bottom left
 
-![fig-6](images/pic14.png)
+![fig-6](images/pic17.png)
 
 ![fig-7](images/pic15.png)
 
