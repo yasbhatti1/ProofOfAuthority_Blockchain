@@ -10,7 +10,7 @@ To do this, We will create three deliverables:
 
 * Send a test transaction.
 
-* Write instructions (with images) on how to use the chain for the rest of your team.
+* Write instructions (with images) on how to use the chain for the rest of our team.
 
 
 
